@@ -83,7 +83,6 @@ public class FrontServlet extends HttpServlet {
 		
 		 String url = request.getRequestURI();
 		 
-		 System.out.println(url);
 		 
 		 String commandUrl = url.substring(contextPath.length());
 		

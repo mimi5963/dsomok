@@ -13,7 +13,7 @@ public class EnterRoomController implements Controller{
 			throws ServletException, IOException {
 		
 		String num = request.getParameter("num");
-		
+		request.setAttribute("name", "user1");
 		return "omokRoom"+num;
 	}
 

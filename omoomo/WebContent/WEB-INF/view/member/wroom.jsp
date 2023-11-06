@@ -9,7 +9,8 @@
 <title>Insert title here</title>
 <script type="text/javascript">
 function goRoom(roomNum) {
-	location.href="<c:url value='/enterRoom.do'/>?num="+roomNum;
+	//location.href="<c:url value='/enterRoom.do'/>?num="+roomNum;
+	location.href="/omoomo/enterRoom.do?num="+roomNum;
 }
 
 </script>
